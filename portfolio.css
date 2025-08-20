@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    line-height: 1.6;
+    color: brown;
+    padding: 20px;
+}
+header{
+    background-color: hotpink;
+    color: palegoldenrod;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.nav-links li{
+    margin:0 15px;
+}
+.nav-links a{
+    color: bisque;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: chartreuse;
+}
+section{
+    margin: 40px 0;
+    padding: 20px;
+    background-color: lavenderblush;
+    border-radius: 8px;
+}
+
+section img{
+    max-width: 150px;
+    display: block;
+    margin-bottom: 15px;
+}
+.project-card{
+    border: 2px solid gainsboro;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.project-card img{
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+}
+.project-card a{
+    text-decoration: underline;
+    color:cornflowerblue;
+}
+
+footer{
+    background-color: hotpink;
+    color: palegoldenrod;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
